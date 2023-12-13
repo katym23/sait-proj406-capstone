@@ -5,17 +5,17 @@ A universal experience: visiting hospital emergency.
 Getting there, maybe with great haste, just to wait (usually).. Why?​
 
 #### Triage Procedure based on:​
-Severity​
-Available Resources​
+- Severity​
+- Available Resources​
 
 #### Severity ​
-Is your emergency life-threatening? You may not know!​
-How urgent is your condition if not life-threatening? ​
+- Is your emergency life-threatening? You may not know!​
+- How urgent is your condition if not life-threatening? ​
 
 #### Available Resources​
-Staff on-shift​
-Developed and proven methods of triage assessment​
-Technology 
+- Staff on-shift​
+- Developed and proven methods of triage assessment​
+- Technology 
 
 What are the limitation to the resources we use? How can we improve?​
 
