@@ -23,7 +23,7 @@ What are the limitation to the resources we use? How can we improve?​
 ## Business Understanding
 
 #### The Client
-The Yale New Haven​ Health System (YNHHS)​
+The [Yale New Haven​ Health System (YNHHS)​](https://www.ynhhs.org/)
 - Who they are: A non-profit health system​
 - What they include: Hospitals, a medical foundation, several multispecialty centres, and outpatient locations​
 - What areas they cover: Westchester, New York to Westerly, Rhode Island​
@@ -58,7 +58,7 @@ Please see this code for the modelling code.
 Please see this code for the association analysis we conducted for our chief complaint and past medical history columns.
 
 ## Full Presentation
-To see our entire presentation, including visualizations and the analysis of the dataset, see our powerpoint here.
+To see our entire presentation, including visualizations of the dataset, analyses and results, see our powerpoint here.
 
 ​
 
