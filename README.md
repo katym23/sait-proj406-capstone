@@ -1,5 +1,4 @@
 # sait-proj460-capstone - Predicting Hospital Admission With A Patient-Centred Framework​
-This repository contains all of the code used to clean, analyze, and model the dataset used for my capstone project.
 
 ## Introduction
 A universal experience: visiting hospital emergency.
