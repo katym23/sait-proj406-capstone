@@ -45,6 +45,11 @@ Our data came from the paper "Predicting hospital admission at emergency departm
 
 Variables are split into the response variable (disposition), demographics, triage variables, hospital usage, chief complaints, past medical history, medications, imaging, and historical vitals and labs. We broke the data into dimension tables based on these categories. See the process [here]()
 
+## Technology Used
+- Python for data cleaning, analysis, and modelling (pandas, seaborn, and sklearn were the primary libraries used)
+- PowerBI for data modelling, visualization, and dashboard creation
+- PowerPoint for presentation.
+
 ## Cleaning
 
 Please see [this code]() for the cleaning process, including undersampling the language variable so that no bias was introduced from the dominance of the English-speaking class
@@ -64,6 +69,9 @@ The functions used throughout all of the previous code is found [here]()
 
 ## Full Presentation
 To see our entire presentation, including visualizations of the dataset, analyses and results, see our powerpoint [here]().
+
+## Acknowledgements
+We refer to it several times throughout all aspects of our project, but our credit goes to the original research paper and triage modelling project "Predicting hospital admission at emergency department triage using machine learning." Check out [the research paper](https://www.archbee.com/blog/readme-document-elements) and the [GitHub repository](https://github.com/yaleemmlc/admissionprediction). We appreciate their code being open source and available for students like us to learn from.
 
 ​
 
