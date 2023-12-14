@@ -61,6 +61,10 @@ Please see [this code]() for the modelling code.
 
 Please see [this code]() for the association analysis and column counting we conducted for our chief complaint and past medical history columns.
 
+## Predictive Model
+
+Please see [this code]() for the Random Forest Predictive Model.
+
 ## Functions
 
 The functions used throughout all of the previous code is found [here]()
