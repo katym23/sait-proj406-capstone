@@ -10,6 +10,16 @@ def visualize_column_distribution(df, list_of_cols):
     """
     Given a dataframe and a list of column names, 
     Plots all the distributions
+
+    Parameters
+    df (pandas dataframe): the dataframe that contains
+    the columns to be visualized
+    list_of_cols (list): a list containing the columns
+    to be visualized. Each column name should be a string.
+
+    Returns
+    plotly figures of the distributions of values
+    within each column in list_of_cols
     """
     
     import plotly.express as px
@@ -32,26 +42,20 @@ def qq_plot(df, list_of_cols):
         
     for figure in fig:
         plt.show()
-        
-def remove_outliers(df, column_name, lower_bound=0.10, upper_bound=0.90):
-    """
-    Given a df and a column name, filters out outliers
-    """
-    q1 = df[column_name].quantile(lower_bound)
-    q3 = df[column_name].quantile(upper_bound)
-    iqr = q3 - q1
-    
-    lower_threshold = q1 - 1.5 * iqr
-    upper_threshold = q3 + 1.5 * iqr
-    
-    df_filtered = df[(df[column_name] >= lower_threshold) & (df[column_name] <= upper_threshold)]
-    
-    return df_filtered
 
 
 def fill_mean(df, column):
     """
     Given a df and a column, fills nulls in the column with the mean
+    
+    Parameters
+    df (pandas dataframe): the dataframe that contains
+    the column to be filled
+    column (str): the column to be filled
+
+    Returns
+    df (pandas dataframe) a dataframe with the nulls in 
+    column filled
     """
     
     df[column].fillna(df[column].mean(), inplace=True)
@@ -62,6 +66,15 @@ def fill_mean(df, column):
 def fill_median(df, column):
     """
     Given a df and a column, fills nulls in the column with the median
+
+    Parameters
+    df (pandas dataframe): the dataframe that contains
+    the column to be filled
+    column (str): the column to be filled
+
+    Returns
+    df (pandas dataframe) a dataframe with the nulls in 
+    column filled
     """
     
     df[column].fillna(df[column].median(), inplace=True)
@@ -72,6 +85,15 @@ def fill_median(df, column):
 def fill_mode(df, column):
     """
     Given a df and a column, fills nulls in the column with the mode
+
+    Parameters
+    df (pandas dataframe): the dataframe that contains
+    the column to be filled
+    column (str): the column to be filled
+
+    Returns
+    df (pandas dataframe) a dataframe with the nulls in 
+    column filled
     """
     
     df.loc[:, column] = df[column].fillna(df[column].mode().iloc[0])
@@ -87,6 +109,16 @@ def calculate_stats(tn, fp, fn, tp):
         tp = true positive,
     returns the four accuracy rates of the individual parts
     e.g. tn rate = tn/total cases
+
+    Parameters
+    tn (int): num of true negatives
+    fp (int): num of false positives
+    fn (int): num of false negatives
+    tp (int): num of true positives
+
+    Returns
+    printed statements with the percentage values
+    for each input
     """
     total = tn + fp + fn + tp
     tn_perc = round((tn/total) * 100, 2)
@@ -104,6 +136,15 @@ def calculate_stats(tn, fp, fn, tp):
 def set_threshold(y_pred_proba, threshold=0.24):
     """
     Given a threshold and prediction probabilities,
-    transforms the predictions to adhere to the threshold
+    transforms the predictions to labels that
+    adhere to the given threshold
+
+    Parameters
+    y_pred_proba (array): predicted y probabilities
+    threshold (float): the desired threshold
+
+    Returns
+    an array of predicted values that adhere to the 
+    threshold
     """
     return (y_pred_proba[:, 1] > threshold).astype(int)
