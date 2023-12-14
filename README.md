@@ -74,7 +74,7 @@ The functions used throughout all of the previous code is found [here](https://g
 To see our entire presentation, including visualizations of the dataset, analyses and results, see our powerpoint [here]().
 
 ## Acknowledgements
-We refer to it several times throughout all aspects of our project, but our credit goes to the original research paper and triage modelling project "Predicting hospital admission at emergency department triage using machine learning." Check out [the research paper](https://www.archbee.com/blog/readme-document-elements) and the [GitHub repository](https://github.com/yaleemmlc/admissionprediction). We appreciate their code being open source and available for students like us to learn from.
+We refer to it several times throughout all aspects of our project, but our credit goes to the original research paper and triage modelling project "Predicting hospital admission at emergency department triage using machine learning." Check out [the research paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0201016) and the [GitHub repository](https://github.com/yaleemmlc/admissionprediction). We appreciate their code being open source and available for students like us to learn from.
 
 ​
 
