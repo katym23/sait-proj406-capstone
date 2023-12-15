@@ -1,5 +1,8 @@
 # sait-proj460-capstone - Predicting Hospital Admission With A Patient-Centred Framework​
 
+Katy Mombourquette
+Denis Ouellette
+
 ## Introduction
 A universal experience: visiting hospital emergency.
 Getting there, maybe with great haste, just to wait (usually).. Why?​
