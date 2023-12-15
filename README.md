@@ -1,4 +1,4 @@
-# sait-proj460-capstone - Predicting Hospital Admission With A Patient-Centred Framework​
+# sait-proj406-capstone - Predicting Hospital Admission With A Patient-Centred Framework​
 
 Katy Mombourquette
 Denis Ouellette
